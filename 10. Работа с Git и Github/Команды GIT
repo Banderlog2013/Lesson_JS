@@ -1,0 +1,21 @@
+git init - иницирование репозитория для проекта.
+Настройка git:
+Указываем имя и емаил с параметром глобал или локал.
+
+git config --local user.name "Pavel" - локальные настройки для проекта
+git config --local user.email banderlog2013@yandex.ru
+
+
+git config --global user.name "Pavel" - глобальные настройки, т.е. для всех проектов.
+git config --local user.email banderlog2013@yandex.ru
+
+Каманды git:
+
+git status - статус репозитория
+git add -A - добавить все файлы для отслеживания
+git add main.css - добавить конкретный файлы
+git add *.css - добавать все файлы с определенным расширение.
+
+git commit -a -m"first commit" - создается контрольная точка. В кавычках кратко указываются внесенные изменения.
+git checkout --file - сброс изменений до предидущего коммита.
+git log - просмотр все коммитов и кто их внес.

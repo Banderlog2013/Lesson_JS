@@ -1,0 +1,3 @@
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof - Оператор typeof
+
+https://developer.mozilla.org/ru/docs/Web/API/Document/write - запись в документ Document.write()

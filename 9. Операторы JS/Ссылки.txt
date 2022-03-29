@@ -1,0 +1,3 @@
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table - Таблица приоретов операторов
+
+https://learn.javascript.ru/bitwise-operators - Побитовые операторы

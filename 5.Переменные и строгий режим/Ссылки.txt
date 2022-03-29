@@ -1,0 +1,3 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode - строгий режим strict mode.
+
+https://caniuse.com/ - проверка поддержки браузерами кода.
