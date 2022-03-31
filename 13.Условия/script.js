@@ -16,6 +16,7 @@ if (num < 49) {
 }
 
 (num === 50) ? console.log('Ok') : console.log('Error');  */
+"use strict";
 
 const num = 50;
 switch (num) {
