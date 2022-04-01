@@ -2,7 +2,9 @@
 
 
 // FUNCTION DECLARATION
-function showFirstMessage () { //function - функция, указываем имя функции, в {действия фунции}, по имени фунции() обращаемся к ней.
+function showFirstMessage () { //function - функция, указываем 
+// имя функции, в {действия фунции}, по имени фунции() обращаемся
+//к ней.
     console.log("Hello World");
 }
 
