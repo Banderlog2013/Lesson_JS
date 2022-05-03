@@ -18,7 +18,7 @@
 // const result = answers.map(item => item.toLocaleLowerCase());// тоже самое, что и выше
 // console.log(result);
 
-let answers = ['IvAn', 'AnnA', 'Hello'];
+//let answers = ['IvAn', 'AnnA', 'Hello'];
 // метод мар возвращает новый изменный массив
 // const result = answers.map(item => { // перебираем массив
 //     return item.toLowerCase(); // возвращаем массив в нижнем регистре
@@ -46,3 +46,41 @@ let answers = ['IvAn', 'AnnA', 'Hello'];
 // console.log(res);
 
 
+// const obj = {
+//     ivan: 'persone',
+//     ann: 'persone',
+//     dog: 'animal',
+//     cat: 'animal'
+// };
+
+// const newArr = Object.entries(obj)
+//.filter(item => item[1] === 'persone');
+// console.log(newArr);
+
+
+// задача 1 
+
+const films = [
+    {
+        name: 'Titanic',
+        rating: 9
+    },
+    {
+        name: 'Die hard 5',
+        rating: 5
+    },
+    {
+        name: 'Matrix',
+        rating: 8
+    },
+    {
+        name: 'Some bad film',
+        rating: 4
+    }
+];
+
+function showGoodFilms(arr) {
+    return arr.filter(film => film.rating >= 8);   
+}
+
+showGoodFilms();
